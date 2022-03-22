@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Queens</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<table id="CHESSTABLE"></table><br/>
+  <input type = "button" value = "Показать варианты расстановок" id = "button1" onclick = "showSolutions()"/><br/>
+  <span id = "span1"></span>
+  <div id = "div" style = "width:300px; height:200px; overflow:auto; display:none"></div>
+  <label>Введите номер расстановки для показа 
+    <input type = "text" id = "number">
+  </label><br/>
+  <input type = "button" value = "Показать выбранную расстановку" id = "button2" onclick = "showChosenSolution()"/>
+  <script src="script.js"></script>
+  </body>
+</html>
